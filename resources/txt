@@ -1,0 +1,4 @@
+@php
+$allSessionVariables = session()->all();
+dd($allSessionVariables);
+@endphp
